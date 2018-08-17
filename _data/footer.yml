@@ -1,0 +1,101 @@
+sitemap:
+- title: Shop and Learn
+  links:
+  - title: Mac
+    target: "#"
+  - title: iPad
+    target: "#"
+  - title: iPhone
+    target: "#"
+  - title: Watch
+    target: "#"
+  - title: TV
+    target: "#"
+  - title: Music
+    target: "#"
+  - title: iTunes
+    target: "#"
+  - title: HomePod
+    target: "#"
+  - title: iPod touch
+    target: "#"
+  - title: Accessories
+    target: "#"
+  - title: Gift Cards
+    target: "#"
+- title: Apple Store
+  links:
+  - title: Find a Store
+    target: "#"
+  - title: Genius Bar
+    target: "#"
+  - title: Today at Apple
+    target: "#"
+  - title: Apple Camp
+    target: "#"
+  - title: Field Trip
+    target: "#"
+  - title: Apple Store App
+    target: "#"
+  - title: Refurbished and Clearance
+    target: "#"
+  - title: Financing
+    target: "#"
+  - title: Apple GiveBack
+    target: "#"
+  - title: Order Status
+    target: "#"
+  - title: Shopping Help
+    target: "#"
+- title: For Education
+  links:
+  - title: Apple and Education
+    target: "#"
+  - title: Shop for College
+    target: "#"
+- title:  For Business
+  links:
+  - title: Apple and Business
+    target: "#"
+  - title: Shop for Business
+    target: "#"
+- title: Account
+  links:
+  - title: Manage Your Apple ID
+    target: "#"
+  - title: Apple Store Account
+    target: "#"
+  - title: iCloud.com
+    target: "#"
+
+
+- title: Apple Values
+  links:
+  - title: Accessibility
+    target: "#"
+  - title: Education
+    target: "#"
+  - title: Environment
+    target: "#"
+  - title: Inclusion and Diversity
+    target: "#"
+  - title: Privacy
+    target: "#"
+  - title: Supplier Responsibility
+    target: "#"
+
+
+- title: About Apple
+  links:
+  - title: Newsroom
+    target: "#"
+  - title: Apple Leadership
+    target: "#"
+  - title: Job Opportunities
+    target: "#"
+  - title: Investors
+    target: "#"
+  - title: Events
+    target: "#"
+  - title: Contact Apple
+    target: "#"

@@ -2,5 +2,25 @@
 ---
 
 body {
-  background-color: green;
+  background-color: #fff;
+}
+
+.Layer {
+
+}
+
+.Layer__Inner {
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(var(--LayerColumns, 1), 1fr);
+  grid-gap: 32px;
+
+  @media (min-width: 600px) {
+    --LayerColumns: 2;
+  }
+
+  @media (min-width: 1000px) {
+    --LayerColumns: 4;
+  }
 }

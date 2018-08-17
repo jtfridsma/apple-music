@@ -1,0 +1,27 @@
+<!-- Nav -->
+<nav>
+  <div>
+
+    {% for item in site.data.header.nav %}
+    <a href='{{ item.target }}'>
+      {{ item.icon }}
+      {{ item.title }}
+    </a>
+    {% endfor%}
+
+  </div>
+</nav>
+
+<!-- Subnav -->
+<div>
+  <div>
+
+    {% for item in site.data.header.subnav %}
+    <a href='{{ item.target }}'>
+      {{ item.icon }}
+      {{ item.title }}
+    </a>
+    {% endfor%}
+
+  </div>
+</div>

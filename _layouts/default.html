@@ -2,11 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Woohoo Websites</title>
+    <title>Music - Apple</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
     {{ page.content | markdownify }}
+
+    {% include header.html %}
+    {% include partials/test.html %}
+    {% include footer.html %}
 
     <!-- add vendor libs here -->
     <script src="/js/app.js"></script>

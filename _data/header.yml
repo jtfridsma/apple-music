@@ -1,0 +1,51 @@
+nav:
+  - title: Apple
+    icon:
+    target: "#"
+  - title: Mac
+    icon:
+    target: "#"
+  - title: iPad
+    icon:
+    target: "#"
+  - title: iPhone
+    icon:
+    target: "#"
+  - title: Watch
+    icon:
+    target: "#"
+  - title: TV
+    icon:
+    target: "#"
+  - title: Music
+    icon:
+    target: "#"
+  - title: Support
+    icon:
+    target: "#"
+  - title: Search
+    icon:
+    target: "#"
+  - title: Shop
+    icon:
+    target: "#"
+
+subnav:
+  - title: Apple Music
+    icon:
+    target: "#"
+  - title: iTunes
+    icon:
+    target: "#"
+  - title: HomePod
+    icon:
+    target: "#"
+  - title: iPod Touch
+    icon:
+    target: "#"
+  - title: Music Accessories
+    icon:
+    target: "#"
+  - title: Gift Cards
+    icon:
+    target: "#"

@@ -1,0 +1,59 @@
+<!--
+Footer
+-->
+
+<div>
+  <div>
+
+    <!-- Legal -->
+    <div>
+      <p>* New subscribers only. Plan automatically renews after trial.</p>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div>
+      <svg></svg>
+      <p>Music</p>
+    </div>
+
+    <!-- Sitemap -->
+    <div>
+
+      {% for section in site.data.footer.sitemap %}
+      <div>
+        <h4>{{ section.title }}</h4>
+        {% for link in section.links %}
+        <a href='{{ link.target }}'>{{ link.title }}</a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+    </div>
+
+    <!-- Main Footer -->
+    <div>
+      <div>
+        <p>More ways to shop: Visit an <a href="#">Apple Store</a>, call 1-800-MY-APPLE, or <a href="#">find a reseller</a>.</p>
+      </div>
+      <div>
+        <div>
+          <p>Copyright © 2018 Apple Inc. All rights reserved.</p>
+        </div>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Sales and Refunds</a>
+          <a href="#">Legal</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="">
+            United States
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
