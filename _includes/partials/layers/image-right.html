@@ -1,0 +1,24 @@
+<article>
+  <div>
+    {% if layer.logo %}
+    <div>
+      <img srcset='assets/img/{{ layer.logo }}_2x.png 2x, assets/img/{{ layer.logo }}.png'>
+    </div>
+    {% endif %}
+
+    <h2>{{ layer.title }}</h2>
+    <h3>{{ layer.text }}</h3>
+
+    {% if layer.button %}
+    <div>{{ layer.button }}</div>
+    {% endif %}
+
+    {% for link in layer.links %}
+    <a href='{{ link.target }}'>{{ link.text }}</a>
+    {% endfor %}
+  </div>
+
+  <div>
+    <img src='assets/img/{{ layer.image }}'>
+  </div>
+</article>

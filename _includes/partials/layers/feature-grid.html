@@ -1,0 +1,18 @@
+{% for item in layer.items %}
+
+<article>
+  <div>
+    <img srcset='assets/img/{{ item.icon }}_2x.png 2x, assets/img/{{ item.icon }}.png'>
+  </div>
+  <div>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.text }}</p>
+
+    {% for link in item.links %}
+    <a href='{{ link.target }}'>{{ link.text }}</a>
+    {% endfor %}
+
+  </div>
+</article>
+
+{% endfor %}

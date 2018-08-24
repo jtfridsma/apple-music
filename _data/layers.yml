@@ -1,0 +1,98 @@
+layers:
+  - type: image-right
+    logo: hero_logo_large
+    text: 45 million songs. Zero ads. Three months on us.
+    button: Try it free*
+    links:
+    - text: Learn more about Apple Music
+      target: "#"
+    image: music_hero_large.jpg
+    background:
+  - type: image-right
+    title: HomePod
+    text: The new sound of home.
+    links:
+    - text: Learn more about HomePod
+      target: "#"
+    image: homepod_large.jpg
+    background: "#fafafa"
+  - type: image-right
+    title: AirPods
+    text: Wireless. Effortless. Magical.
+    links:
+    - text: Learn more about AirPods
+      target: "#"
+    image: airpods_large.jpg
+    background:
+  - type: image-right
+    title: iPod touch
+    text: The music you love. On the go.
+    links:
+    - text: Learn more about iPod touch
+      target: "#"
+    image: ipod_large.jpg
+    background: "#fafafa"
+  - type: image-right
+    title: Accessories
+    text: Make the most of your music.
+    links:
+    - text: Shop headphones and speakers
+      target: "#"
+    image: accessories_large.png
+    background:
+  - type: image-right
+    title: iTunes
+    text: Your music, movies, and TV shows take center stage.
+    links:
+    - text: Learn more about iTunes
+      target: "#"
+    - text: Download iTunes
+      target: "#"
+    image: itunes_large.png
+    background: "#fafafa"
+  - type: image-right
+    title: Gift Cards
+    text: Give the gift of Apple Music, accessories, and more.
+    links:
+    - text: Learn more about gift cards
+      target: "#"
+    image: gift_cards_large.jpg
+    background:
+  - type: image-centered
+    text: Music Creation apps with Apple.
+    image: apps_large.jpg
+    background: "#fafafa"
+  - type: feature-grid
+    background: "#fafafa"
+    items:
+    - title: Music Memos
+      text: Capture all your musical ideas with a tap and then turn them into something great.
+      icon: icon_apps_music_memos_large
+      links:
+      - text: Learn more about Music Memos
+        target: "#"
+    - title: GarageBand
+      text: Create music on your Mac, iPad, iPhone, or iPod touch with a wide range of instruments.
+      icon: icon_apps_garage_band_large
+      links:
+      - text: Learn more about GarageBand
+        target: "#"
+    - title: Logic Pro X
+      text: Crank up your production with a complete professional recording studio right on your Mac.
+      icon: icon_apps_logic_pro_large
+      links:
+      - text: Learn more about Logic Pro X
+        target: "#"
+    - title: MainStage 3
+      text: Transform your Mac into a live rig and give your audience a show they won’t forget.
+      icon: icon_apps_main_stage_large
+      links:
+      - text: Learn more about MainStage 3
+        target: "#"
+  - type: feature-single
+    title: Working with Apple Music.
+    text: Discover all the ways you can showcase content on Apple Music. Access MusicKit, RSS feeds, widgets, brand guidelines, badge art, and more.
+    icon: itunes_icon_large
+    links:
+    - text: Learn more
+      target: "#"
