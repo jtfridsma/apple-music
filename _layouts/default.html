@@ -2,17 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Music - Apple</title>
+    <title>Apple</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
-  <body>
-    {{ page.content | markdownify }}
 
-    {% include header.html %}
-    {% include partials/layers.html %}
-    {% include footer.html %}
+  {{ content }}
 
-    <!-- add vendor libs here -->
-    <script src="/js/app.js"></script>
-  </body>
 </html>

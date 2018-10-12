@@ -1,17 +1,31 @@
 ---
 ---
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fff;
+  font-family: "SF UI Display", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  margin: 0;
 }
 
-.Layer {
+section.billboard {
 
 }
 
-.Layer__Inner {
-  max-width: 980px;
-  margin: 0 auto;
+// section.billboard__inner {
+//   max-width: 980px;
+//   margin: 0 auto;
+// }
+
+section.grid {
   display: grid;
   grid-template-columns: repeat(var(--LayerColumns, 1), 1fr);
   grid-gap: 32px;

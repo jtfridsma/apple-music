@@ -1,15 +1,13 @@
 {% for layer in site.data.layers.layers %}
 
-<section class="Layer"
-  {% if layer.background %}
-  style="background-color:{{ layer.background }}"
-  {% endif %}
-  >
-  <div class="Layer__Inner">
+  <section class="{{ layer.type }}"
+    {% if layer.background %}
+    style="background-color:{{ layer.background }}"
+    {% endif %}
+    >
 
     {% include partials/layers/{{ layer.type }}.html %}
 
-  </div>
-</section>
+  </section>
 
 {% endfor %}

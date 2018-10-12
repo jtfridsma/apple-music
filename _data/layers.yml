@@ -1,5 +1,5 @@
 layers:
-  - type: image-right
+  - type: billboard
     logo: hero_logo_large
     text: 45 million songs. Zero ads. Three months on us.
     button: Try it free*
@@ -7,8 +7,7 @@ layers:
     - text: Learn more about Apple Music
       target: "#"
     image: music_hero_large.jpg
-    background:
-  - type: image-right
+  - type: billboard
     title: HomePod
     text: The new sound of home.
     links:
@@ -16,15 +15,14 @@ layers:
       target: "#"
     image: homepod_large.jpg
     background: "#fafafa"
-  - type: image-right
+  - type: billboard
     title: AirPods
     text: Wireless. Effortless. Magical.
     links:
     - text: Learn more about AirPods
       target: "#"
     image: airpods_large.jpg
-    background:
-  - type: image-right
+  - type: billboard
     title: iPod touch
     text: The music you love. On the go.
     links:
@@ -32,15 +30,14 @@ layers:
       target: "#"
     image: ipod_large.jpg
     background: "#fafafa"
-  - type: image-right
+  - type: billboard
     title: Accessories
     text: Make the most of your music.
     links:
     - text: Shop headphones and speakers
       target: "#"
     image: accessories_large.png
-    background:
-  - type: image-right
+  - type: billboard
     title: iTunes
     text: Your music, movies, and TV shows take center stage.
     links:
@@ -50,19 +47,18 @@ layers:
       target: "#"
     image: itunes_large.png
     background: "#fafafa"
-  - type: image-right
+  - type: billboard
     title: Gift Cards
     text: Give the gift of Apple Music, accessories, and more.
     links:
     - text: Learn more about gift cards
       target: "#"
     image: gift_cards_large.jpg
-    background:
-  - type: image-centered
+  - type: billboard
     text: Music Creation apps with Apple.
     image: apps_large.jpg
     background: "#fafafa"
-  - type: feature-grid
+  - type: grid
     background: "#fafafa"
     items:
     - title: Music Memos
@@ -89,10 +85,11 @@ layers:
       links:
       - text: Learn more about MainStage 3
         target: "#"
-  - type: feature-single
-    title: Working with Apple Music.
-    text: Discover all the ways you can showcase content on Apple Music. Access MusicKit, RSS feeds, widgets, brand guidelines, badge art, and more.
-    icon: itunes_icon_large
-    links:
-    - text: Learn more
-      target: "#"
+  - type: grid
+    items:
+    - title: Working with Apple Music.
+      text: Discover all the ways you can showcase content on Apple Music. Access MusicKit, RSS feeds, widgets, brand guidelines, badge art, and more.
+      icon: itunes_icon_large
+      links:
+      - text: Learn more
+        target: "#"
