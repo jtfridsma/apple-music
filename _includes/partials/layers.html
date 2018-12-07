@@ -6,7 +6,9 @@
     {% endif %}
     >
 
-    {% include partials/layers/{{ layer.type }}.html %}
+    <div class="{{ layer.type }}-inner">
+      {% include partials/layers/{{ layer.type }}.html %}
+    </div>
 
   </section>
 

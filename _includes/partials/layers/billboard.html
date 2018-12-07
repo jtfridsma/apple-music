@@ -1,5 +1,4 @@
 <article>
-
   <div>
     {% if layer.logo %}
       <div>
@@ -19,9 +18,7 @@
     {% endfor %}
   </div>
 
-  <div>
-    <!-- billboard images are jpg or png, and img element needs a way to account for this to serve retina correctly -->
-    <img src='/assets/img/{{ layer.image }}'>
-  </div>
+  <!-- billboard images are jpg or png, and img element needs a way to account for this to serve retina correctly -->
+  <img src='/assets/img/{{ layer.image }}'>
 
 </article>
