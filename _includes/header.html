@@ -1,6 +1,6 @@
 <!-- Nav -->
 <nav>
-  <div>
+  <div class="nav__inner">
 
     {% for item in site.data.header.nav %}
     <a href='{{ item.target }}'>
@@ -13,8 +13,8 @@
 </nav>
 
 <!-- Subnav -->
-<div>
-  <div>
+<div class="subnav">
+  <div class="subnav__inner">
 
     {% for item in site.data.header.subnav %}
     <a href='{{ item.target }}'>

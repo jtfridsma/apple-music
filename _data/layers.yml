@@ -1,17 +1,19 @@
 layers:
   - type: billboard
     logo: hero_logo_large
-    text: 45 million songs. Zero ads. Three months on us.
+    text: Lose yourself in 50 million songs.
     button: Try it free*
     links:
-    - text: Learn more about Apple Music
+    - text: Learn more
       target: "#"
     image: music_hero_large.jpg
   - type: billboard
     title: HomePod
     text: The new sound of home.
     links:
-    - text: Learn more about HomePod
+    - text: Learn more
+      target: "#"
+    - text: Buy
       target: "#"
     image: homepod_large.jpg
     background: "#fafafa"
@@ -19,29 +21,33 @@ layers:
     title: AirPods
     text: Wireless. Effortless. Magical.
     links:
-    - text: Learn more about AirPods
+    - text: Learn more
+      target: "#"
+    - text: Buy
       target: "#"
     image: airpods_large.jpg
   - type: billboard
     title: iPod touch
     text: The music you love. On the go.
     links:
-    - text: Learn more about iPod touch
+    - text: Learn more
+      target: "#"
+    - text: Buy
       target: "#"
     image: ipod_large.jpg
     background: "#fafafa"
   - type: billboard
     title: Accessories
-    text: Make the most of your music.
+    text: Listen with a new look.
     links:
     - text: Shop headphones and speakers
       target: "#"
     image: accessories_large.png
   - type: billboard
     title: iTunes
-    text: Your music, movies, and TV shows take center stage.
+    text: The perfect mix of music, movies, and TV shows.
     links:
-    - text: Learn more about iTunes
+    - text: Learn more
       target: "#"
     - text: Download iTunes
       target: "#"
@@ -51,7 +57,7 @@ layers:
     title: Gift Cards
     text: Give the gift of Apple Music, accessories, and more.
     links:
-    - text: Learn more about gift cards
+    - text: Shop gift cards
       target: "#"
     image: gift_cards_large.jpg
   - type: billboard
